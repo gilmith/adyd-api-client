@@ -28,4 +28,7 @@ export * from './habilidadesSabiduria.serviceInterface';
 export * from './raza.service';
 import { RazaService } from './raza.service';
 export * from './raza.serviceInterface';
-export const APIS = [AlineamientoService, CategoriaService, DescripcionesService, HabilidadesCarismaService, HabilidadesConstitucionService, HabilidadesDestrezaService, HabilidadesFuerzaService, HabilidadesInteligenciaService, HabilidadesSabiduriaService, RazaService];
+export * from './tiradasDeSalvacion.service';
+import { TiradasDeSalvacionService } from './tiradasDeSalvacion.service';
+export * from './tiradasDeSalvacion.serviceInterface';
+export const APIS = [AlineamientoService, CategoriaService, DescripcionesService, HabilidadesCarismaService, HabilidadesConstitucionService, HabilidadesDestrezaService, HabilidadesFuerzaService, HabilidadesInteligenciaService, HabilidadesSabiduriaService, RazaService, TiradasDeSalvacionService];

@@ -1,4 +1,4 @@
-# @gilmith/adyd-api-client@1.0.10
+# @gilmith/adyd-api-client@1.0.5
 
 acceso a las tablas de configuracion de personaje
 
@@ -24,7 +24,7 @@ Navigate to the folder of your consuming project and run one of next commands.
 _published:_
 
 ```console
-npm install @gilmith/adyd-api-client@1.0.10 --save
+npm install @gilmith/adyd-api-client@1.0.5 --save
 ```
 
 _without publishing (not recommended):_

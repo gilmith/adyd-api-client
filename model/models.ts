@@ -9,3 +9,4 @@ export * from './inteligencia';
 export * from './modelError';
 export * from './raza';
 export * from './sabiduria';
+export * from './tiradaSalvacion';

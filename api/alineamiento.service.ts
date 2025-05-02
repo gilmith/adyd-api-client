@@ -74,7 +74,7 @@ export class AlineamientoService extends BaseService implements AlineamientoServ
             }
         }
 
-        let localVarPath = `/alineamiento`;
+        let localVarPath = `/alineamiento/search/findAll`;
         return this.httpClient.request<Array<Alignment>>('get', `${this.configuration.basePath}${localVarPath}`,
             {
                 context: localVarHttpContext,
